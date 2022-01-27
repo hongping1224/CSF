@@ -168,7 +168,7 @@ void CSF::do_filtering(std::vector<int>& groundIndexes,
     }
 
     if (params.bSloopSmooth) {
-        std::cout << "[" << this->index << "]  - post handle..." << std::endl;
+        //std::cout << "[" << this->index << "]  - post handle..." << std::endl;
         cloth.movableFilter();
     }
 
